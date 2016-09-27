@@ -59,10 +59,16 @@
 - Bước 3: Đăng kí một con bot tại https://dev.botframework.com/bots/new. Chú ý phải điền vào phần "Messaging endpoint" trong mục configuration (Đây là HTTPS Rest endpoint mà bot sẽ nhận và gửi tin nhắn đi). Chú ý chép lại Microsoft App Id và Microsoft App Password để sử dụng về sau.
 
 - Bước 4: Thay đổi app password và app id ở trong phần code (ở đây mình điền thẳng app password và app id vào để cho nhanh với mục đích demo, khi code chúng ta nên để 2 biến này ở trong file config).
+
+![password and id](https://github.com/tungnt244/tungntchatbot/blob/master/image/IdandPassword.PNG)
  
-- Bước 5: Deploy app lên một nơi tùy ý sao cho từ thế giới internet bên ngoài có thể truy cập tới và BẮT BUỘC phải thông qua giao thức HTTPS (có thể deploy lên heroku, azure,...).
+- Bước 5: Deploy app lên một nơi tùy ý sao cho từ thế giới internet bên ngoài có thể truy cập tới và BẮT BUỘC phải thông qua giao thức HTTPS (có thể deploy lên heroku, azure,...). Test xem bot đã được connect hay chưa, nếu đã connect sẽ hiện lên "Accept".
+
+![test bot](https://github.com/tungnt244/tungntchatbot/blob/master/image/TestConnection.PNG)
   
 - Bước 6: Add facebook vào channels để có thể chat với bot. (Làm theo hướng dẫn có ghi sau khi bấm add channels Facebook).
+
+![add facebook](https://github.com/tungnt244/tungntchatbot/blob/master/image/add%20facebook.PNG)
 
 - Bước 7: Vào chat với page đã subscribe để test thử bot. 
 

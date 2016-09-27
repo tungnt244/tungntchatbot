@@ -159,3 +159,7 @@ bot.dialog('/receipt', [
         session.endDialog(msg);
     }
 ]);
+server.get(/.*/, restify.serveStatic({
+	'directory': '.',
+	'default': 'index.html'
+}));

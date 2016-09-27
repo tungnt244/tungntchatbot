@@ -47,8 +47,10 @@
 - `app.js`: file chính của cả chương trình. Trong code mẫu của facebook, họ để chung code ở mỗi một file này, còn khi chúng ta làm product thật thì hiển nhiên phải cấu trúc lại thư mục, không thể để code ở chung một file được.
 
 - `package.json`: như đã giới thiệu, là file mô tả project (tựa như pom.xml của maven). File này được đọc và ghi bởi `npm`
+
 ## Microsoft BotBuilder
 - Download và cài đặt Microsoft Botbuilder tại đây https://docs.botframework.com/en-us/node/builder/guides/core-concepts/#navtitle.
+
 ## Chạy thử bot
 - Bước 1: Clone mã nguồn từ repo này về `git clone https://github.com/tungnt244/tungntchatbot`
 

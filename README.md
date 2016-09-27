@@ -56,7 +56,7 @@
 
 - Bước 3: Đăng kí một con bot tại https://dev.botframework.com/bots/new. Chú ý phải điền vào phần "Messaging endpoint" trong mục configuration (Đây là HTTPS Rest endpoint mà bot sẽ nhận và gửi tin nhắn đi). Chú ý chép lại Microsoft App Id và Microsoft App Password để sử dụng về sau.
 
-- Bước 4: Thay đổi app password và app id ở trong phần code (ở đây mình điền thẳng app password và app id vào để cho nhanh với mục đích demo, khi code chúng ta nên để 2 biến này ở trong file config)
+- Bước 4: Thay đổi app password và app id ở trong phần code (ở đây mình điền thẳng app password và app id vào để cho nhanh với mục đích demo, khi code chúng ta nên để 2 biến này ở trong file config).
  
 - Bước 5: Deploy app lên một nơi tùy ý sao cho từ thế giới internet bên ngoài có thể truy cập tới và BẮT BUỘC phải thông qua giao thức HTTPS (có thể deploy lên heroku, azure,...).
   
@@ -65,4 +65,3 @@
 - Bước 7: Vào chat với page đã subscribe để test thử bot. 
 
   Bot chưa được public nên chỉ có admin chat là bot sẽ nhận request để trả lời. Tính năng mặc định của bot là hỏi tên của mọi người sau đó nói "hello tới mọi người" và gửi một loạt ảnh, card và receipt tới user.
-
